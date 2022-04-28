@@ -19,4 +19,3 @@ class Plato(models.Model):
     Tiempo_Pre=models.IntegerField()
     CategoriaP=models.CharField(max_length=100)
     alimento = models.ManyToManyField(Alimento)
-
